@@ -16,8 +16,8 @@ These initial prompts are custom exercises, not HumanEval problems. No HumanEval
 
 | Component | Recorded value |
 |---|---|
-| Computer | MacBook Pro; chip and RAM not yet recorded |
-| macOS | Not yet recorded |
+| Computer | MacBook Pro M3 MAX 48GB|
+| macOS | 26.5.2 |
 | Python | 3.11.16 |
 | MLX LM | 0.31.3 |
 | MLX / MLX Metal | 0.32.2 / 0.32.2 |
