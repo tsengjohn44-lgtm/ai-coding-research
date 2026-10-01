@@ -1,0 +1,11 @@
+Test 1: 
+mlx_lm.generate \
+  --model mlx-community/Qwen3.5-4B-4bit \
+  --prompt "Write a Python function that returns the largest number in a nonempty list." \
+  --max-tokens 512
+
+Test 2: 
+mlx_lm.generate \
+  --model mlx-community/Qwen3.5-4B-4bit \
+  --prompt "Write a Python function named find_largest_number(numbers) for a nonempty list of integers. Do not use max() or sorted(). Use a loop. In your final answer, return only the function code, without examples or explanation." \
+  --max-tokens 1024

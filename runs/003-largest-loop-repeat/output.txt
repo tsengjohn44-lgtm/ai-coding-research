@@ -1,0 +1,33 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 4052.08it/s]
+==========
+The user wants me to write a Python function that finds the largest number in a list of integers. I need to:
+1. Not use max() or sorted()
+2. Use a loop
+3. Return only the function code, no examples or explanation
+
+Let me write a simple function that iterates through the list and keeps track of the largest number found so far.
+
+```python
+def find_largest_number(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+```
+
+This should work correctly for nonempty lists of integers.
+</think>
+
+```python
+def find_largest_number(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
+```
+==========
+Prompt: 57 tokens, 430.381 tokens-per-sec
+Generation: 180 tokens, 119.039 tokens-per-sec
+Peak memory: 2.623 GB
