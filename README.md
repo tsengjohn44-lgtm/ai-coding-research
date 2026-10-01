@@ -4,7 +4,6 @@ A beginner research notebook exploring coding evaluation with Qwen3.5-4B on a Ma
 
 ## Current status
 
-- Completed two informal generation runs on September 28, 2026.
 - Recorded the Python environment for run 002.
 - Reviewed generated functions by inspection; automated correctness tests have not yet been executed.
 - Run 003 is planned as a repeat of run 002.
