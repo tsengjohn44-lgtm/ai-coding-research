@@ -30,7 +30,7 @@ Versions above come from the environment recorded after run 002. See `runs/002-l
 
 | Run | Task | Output budget | Generated tokens | Generation tokens/s | Reported peak memory | Status |
 |---|---|---:|---:|---:|---:|---|
-| 001 | Largest number; no algorithm restriction | 512 | 456 | 118.476 | 2.551 GB | Generated function uses `max()`; not execution-tested |
+| 001 | Largest number; no algorithm restriction | 512 | 456 | 118.476 | 2.551 GB | Generated function uses `max()`; not execution-tested, in run 002 section|
 | 002 | Largest integer using a loop; no `max()` or `sorted()` | 1024 | 180 | 119.216 | 2.623 GB | Appears correct by inspection; not execution-tested |
 | 003 | Repeat run 002 with the same explicit settings | 1024 | Pending | Pending | Pending | Not yet run |
 
